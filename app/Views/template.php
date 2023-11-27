@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Cafein | <?= $url->getSegment(3) ?> </title>
+    <title>The Moon Cafe | <?= $url->getSegment(3) ?> </title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/feather/feather.css">
     <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/mdi/css/materialdesignicons.min.css">
@@ -19,7 +19,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="<?= base_url() ?>/public/css/vertical-layout-light/style.css">
     <!-- endinject -->
-    <link rel="shortcut icon" href="<?= base_url() ?>/public/images/favicon.png" />
+    <link rel="shortcut icon" href="<?= base_url() ?>/public/images/logo-T.png" />
 
     <script src="<?php echo base_url() ?>/public/js/jquery/jquery.min.js"></script>
 </head>
@@ -36,10 +36,10 @@
                 </div>
                 <div>
                     <a class="navbar-brand brand-logo" href="../../index.html">
-                        <img src="<?= base_url() ?>/public/images/logo.svg" alt="logo" />
+                    <h1>The Moon Kafe</h1>
                     </a>
                     <a class="navbar-brand brand-logo-mini" href="../../index.html">
-                        <img src="<?= base_url() ?>/public/images/logo-mini.svg" alt="logo" />
+                    <h1>T</h1>
                     </a>
                 </div>
             </div>
@@ -110,12 +110,12 @@
                 </div>
                 <!-- content-wrapper ends -->
                 <!-- partial:../../partials/_footer.html -->
-                <footer class="footer">
+          <!--      <footer class="footer">
                     <div class="d-sm-flex justify-content-center justify-content-sm-between">
                         <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash.</span>
                         <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. All rights reserved.</span>
                     </div>
-                </footer>
+                </footer> -->
             </div>
             <!-- partial -->
             <!-- main-panel ends -->

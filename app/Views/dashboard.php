@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Cafein :) </title>
+    <title>The Moon Coffee Kafe </title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/feather/feather.css">
     <link rel="stylesheet" href="<?= base_url() ?>/public/vendors/mdi/css/materialdesignicons.min.css">
@@ -19,7 +19,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="<?= base_url() ?>/public/css/vertical-layout-light/style.css">
     <!-- endinject -->
-    <link rel="shortcut icon" href="<?= base_url() ?>/public/images/favicon.png" />
+    <link rel="shortcut icon" href="<?= base_url() ?>/public/images/logo-T.png" />
 </head>
 
 <body>
@@ -30,10 +30,10 @@
 
                 <div>
                     <a class="navbar-brand brand-logo" href="../../index.html">
-                        <h1>Cafein</h1>
+                        <h1>The Moon Kafe</h1>
                     </a>
                     <a class="navbar-brand brand-logo-mini" href="../../index.html">
-                        <h1>C</h1>
+                        <h1>T</h1>
                     </a>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                 endif;
                 if ($snack) : ?>
                     <div class="content-wrapper text-center">
-                        <h2>Aneka Snack</h2>
+                        <h2>Aneka Makanan Ringan</h2>
                         <hr>
                         <div class="row">
                             <?php for ($i = 0; $i < count($snack); $i++) :
@@ -260,6 +260,7 @@
                                 <br> <br> Mohon Menunggu sebentar kak. semoga anda dapat menikmati suasana rindu cafe ini. <br> <br>
                                 <b>Terimakasih... :)</b><br><br>
                                 <i>langsung dibayar ya.. </i>
+                                <img src="<?php echo base_url(); ?>/public/images/qris.png" />
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-warning" onclick="tutupModalSelesai()">Siap :)</button>
@@ -279,6 +280,7 @@
                                 <div id="errorLogin" class="mb-3"></div>
                                 <div class="form-group">
                                     <div class="input-group">
+                                    <span class="input-group-text bg-warning text-white">Username</span>
                                         <select id="idUser" class="form-control text-dark">
                                             <?php for ($i = 0; $i < count($user); $i++) {
                                                 echo "<option value='" . $user[$i]["id"] . "'>" . $user[$i]["nama"] . "</option>";
@@ -448,6 +450,7 @@
                 rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
                 return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
             }
+
         </script>
 
         <script src="<?= base_url() ?>/public/vendors/js/vendor.bundle.base.js"></script>
@@ -459,5 +462,10 @@
         <script src="<?= base_url() ?>/public/js/todolist.js"></script>
         <!-- endinject -->
 </body>
+
+<div id="Footer" >
+ <tr><center><td>&copy;  Copywright  2023 ❤️Dollar_rahmat_hasibuan  </center></td></tr>
+</div>
+
 
 </html>

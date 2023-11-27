@@ -71,7 +71,7 @@
                         <div class="input-group">
                             <select name="jenis" id="jenis" class="form-control">
                                 <option value="1">Makanan</option>
-                                <option value="2">Snack</option>
+                                <option value="2">Makanan Ringan</option>
                                 <option value="3">Minuman Dingin</option>
                                 <option value="4">Minuman Panas</option>
                             </select>

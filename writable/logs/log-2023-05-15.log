@@ -1,0 +1,42 @@
+CRITICAL - 2023-05-15 06:57:39 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 460, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-15 07:19:00 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar\Collectors\History.php(80): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1684153140, 20)
+#3 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-15 07:19:21 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 460, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-15 07:42:07 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 460, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-15 07:47:43 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 460, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

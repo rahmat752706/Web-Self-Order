@@ -110,6 +110,7 @@
     </div>
 </div>
 
+
 <script>
     settanggal()
     tampilkan()
@@ -305,4 +306,5 @@
         return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
     }
 </script>
+<br>
 <?php $this->endSection() ?>

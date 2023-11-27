@@ -1,0 +1,62 @@
+CRITICAL - 2023-05-11 07:34:16 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 460, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-11 07:35:32 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\cafein\system\Debug\Toolbar\Collectors\History.php(80): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1683808532, 20)
+#3 C:\xampp\htdocs\cafein\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\cafein\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\cafein\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-11 09:42:44 --> Undefined variable: row
+#0 C:\xampp\htdocs\cafein\app\Views\dashboard.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 264, Array)
+#1 C:\xampp\htdocs\cafein\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cafein\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-11 09:42:51 --> Undefined variable: row
+#0 C:\xampp\htdocs\cafein\app\Views\dashboard.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 264, Array)
+#1 C:\xampp\htdocs\cafein\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cafein\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-11 09:42:52 --> Undefined variable: row
+#0 C:\xampp\htdocs\cafein\app\Views\dashboard.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 264, Array)
+#1 C:\xampp\htdocs\cafein\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cafein\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-11 09:42:53 --> Undefined variable: row
+#0 C:\xampp\htdocs\cafein\app\Views\dashboard.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 264, Array)
+#1 C:\xampp\htdocs\cafein\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cafein\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cafein\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\cafein\app\Controllers\Dashboard.php(33): view('dashboard', Array)
+#5 C:\xampp\htdocs\cafein\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\cafein\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\cafein\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cafein\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
